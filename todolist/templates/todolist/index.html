@@ -1,0 +1,34 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+	<head>
+        
+		<meta charset="utf-8">
+		<meta name="Description" content="ports quiz">
+        <link rel="stylesheet" type="text/css" href="{% static 'todolist/mystyle.css' %}">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Sports quiz</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	</head>
+
+	<body>
+		
+        <div class="quizContainer">
+        
+            <h1>Choose the correct answ er!</h1>
+            
+            <div class="question"></div>
+            <ul class="choiceList"></ul>
+            <div class="quizMessage"></div>
+            <div class="result"></div>
+            <div class="nextButton">Next Question</div>
+            <br>
+            
+        </div>
+        
+        <script type="text/javascript" src="{% static 'todolist/myscript.js' %}"></script>
+
+	</body>
+
+</html>
